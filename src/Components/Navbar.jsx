@@ -31,7 +31,7 @@ export default function Navbar() {
       <NavbarBrand  >
        <div  onClick={() => navigate("/")} className="cursor-pointer flex items-center">
         <i className="fa-solid fa-ghost mr-1 text-2xl" />
-        <h1 className=" font-bold text-inherit">SocialApp</h1>
+        <h1 className=" font-bold text-inherit">SocialAppp</h1>
        </div>
       </NavbarBrand>
       <NavbarContent justify="center">

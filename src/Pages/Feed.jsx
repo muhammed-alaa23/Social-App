@@ -1,13 +1,11 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { displayAllPosts } from '../services/postServices'
 import { useState } from 'react';
-import { AuthContext } from '../contexts/AuthContext';
-import LoadingScreen from '../Components/LoadingScreen';
 import SkeletonLoader from '../Components/SkeletonLoader';
 import Post from '../Components/Post';
 import { Link } from 'react-router-dom';
 import AddPost from '../Components/AddPost';
-import Friends from '../Components/friends';
+import Friends from '../Components/Friends';
 import Messages from '../Components/Messages';
 
 

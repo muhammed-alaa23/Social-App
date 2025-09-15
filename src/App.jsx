@@ -12,6 +12,7 @@ import MainLayout from './Layouts/MainLayout'
 // import ProtectedRoute from './protectedRoute/ProtectedRoute'
 // import ProtectAuthRoute from './protectedRoute/protectAuthRoute'
 import ProtectedRoute from './protectedRoute/ProtectedRoute'
+// import ProtectAuthRoute from './protectedRoute/ProtectAuthRoute'
 import ProtectAuthRoute from './protectedRoute/ProtectAuthRoute'
 
 

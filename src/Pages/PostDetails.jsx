@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
 import { displaySinglePosts } from '../services/postServices';
 import Post from '../Components/Post';
-import LoadingScreen from '../Components/LoadingScreen';
 import SkeletonLoader from '../Components/SkeletonLoader';
 
 export default function PostDetails() {
