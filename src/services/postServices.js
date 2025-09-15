@@ -14,6 +14,7 @@ export async function displayAllPosts(){
             },
             params:{
                 page:31,
+                
             }
         })
         return data;
