@@ -9,8 +9,10 @@ import PostDetails from './Pages/PostDetails'
 import Profile from './Pages/Profile'
 import NotFound from './Pages/NotFound'
 import MainLayout from './Layouts/MainLayout'
+// import ProtectedRoute from './protectedRoute/ProtectedRoute'
+// import ProtectAuthRoute from './protectedRoute/protectAuthRoute'
 import ProtectedRoute from './protectedRoute/ProtectedRoute'
-import ProtectAuthRoute from './protectedRoute/protectAuthRoute'
+import ProtectAuthRoute from './protectedRoute/ProtectAuthRoute'
 
 
 
