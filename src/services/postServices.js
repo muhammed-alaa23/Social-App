@@ -6,14 +6,16 @@ const API_URL = "https://linked-posts.routemisr.com/";
 
 
 
-export async function displayAllPosts(){
+export async function displayAllPosts(page = 1) {
     try{
         const { data } = await axios.get(API_URL + "posts", {
             headers : {
                 token : localStorage.getItem("token")
             },
             params:{
-                page:31,
+                limit : 40,
+                page,
+                sort:"-createdAt",
                 
             }
         })

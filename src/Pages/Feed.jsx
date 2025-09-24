@@ -31,7 +31,7 @@ export default function Feed() {
       console.log(data);
 
       if (data.message=="success"){
-        setPosts(data.posts.reverse());
+        setPosts(data.posts);
       }
     }
 
